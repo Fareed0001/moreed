@@ -482,6 +482,11 @@ section {
   margin-bottom: 0;
 }
 
+.founders-row {
+  width: 50%;
+  margin: auto;
+}
+
 /*--------------------------------------------------------------
 # What We Do
 --------------------------------------------------------------*/
@@ -571,6 +576,8 @@ section {
 --------------------------------------------------------------*/
 .service-card {
   height: 100%;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .service-card-img {
@@ -1325,6 +1332,10 @@ section {
 
 /* start of phone styles */
 @media screen and (max-width: 479px) {
+  /*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+
   .about-img {
     width: 90%;
     margin: auto;
@@ -1335,8 +1346,22 @@ section {
     margin: auto;
   }
 
-  .about-text {
-    width: 100%;
+  .about h3 {
+    text-align: center;
+    font-size: 24px;
   }
-  
+
+  .about-text {
+    width: 80%;
+    margin: auto;
+  }
+
+  /*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+
+  .founders-row {
+    width: 100%;
+    margin: auto;
+  }
 }
