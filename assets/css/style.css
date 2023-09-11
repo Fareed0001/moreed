@@ -687,6 +687,7 @@ section {
 .portfolio .portfolio-item figure .link-details i {
   color: #384046;
   line-height: 0;
+  font-size: .8rem;
 }
 
 .portfolio .portfolio-item figure .link-preview:hover,
@@ -919,6 +920,10 @@ section {
 .founders .member .member-img {
   position: relative;
   overflow: hidden;
+}
+
+.founders .member .member-img .founder-img {
+  background-color: #f0f8ff;
 }
 
 .founders .member .social {
@@ -1224,6 +1229,18 @@ section {
 }
 
 
+/* THANK YOU PAGE  */
+
+.thankyou-gif {
+  margin: auto 25%;
+  width: 50%;
+}
+
+.thankyou-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
 
 
 /* start of pc styles */
@@ -1240,7 +1257,7 @@ section {
 --------------------------------------------------------------*/
 
   .about-img {
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
 
@@ -1267,4 +1284,44 @@ section {
     width: 100%;
     margin: auto;
   }
+
+  .founders .member {
+    text-align: center;
+  }
+
+
+  /*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+  footer {
+    text-align: center;
+  }
+
+  .footer-logo {
+    width: 50%;
+    margin: 0 0 1rem 0;
+  }
+
+  .footer-form-col {
+    text-align: left;
+    font-size: .9rem;
+  }
+
+
+  /*--------------------------------------------------------------
+# Thank you page
+--------------------------------------------------------------*/
+
+  .thankyou-gif {
+    margin: 10% auto 0;
+    width: 100%;
+  }
+
+  .thankyou-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
 }
