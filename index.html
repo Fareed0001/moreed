@@ -35,9 +35,11 @@
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
 
+  <!-- Bootstrap  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
@@ -81,7 +83,23 @@
     <div class="container text-center text-md-left" data-aos="fade-up">
       <h1>Welcome to <span>Moreed</span></h1>
       <h2>Expanding your online audience</h2>
-      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+      <!-- Google Calendar Appointment Scheduling begin -->
+      <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+      <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+      <script>
+        (function () {
+          var target = document.currentScript;
+          window.addEventListener('load', function () {
+            calendar.schedulingButton.load({
+              url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3N7yrBmjMPoEq1rKK05IGebupqlrS-fwEEy4DO7LQquCtKtg101dRKrDTf6ir3SpzP1DkFOQss?gv=true',
+              color: '#039BE5',
+              label: 'Book an appointment',
+              target,
+            });
+          });
+        })();
+      </script>
+      <!-- end Google Calendar Appointment Scheduling -->
     </div>
   </section>
   <!-- End Hero -->
@@ -161,7 +179,7 @@
 
         <div class="section-title">
           <h2>Services</h2>
-          <p>Our services encompass web development, mobile app development, and consultancy services.</p>
+          <p>Our services encompass web development, mobile app development, advertisement and consultancy services.</p>
         </div>
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -213,6 +231,7 @@
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-web">Websites</li>
               <li data-filter=".filter-app">Apps</li>
+              <li data-filter=".filter-advert">Advertisement</li>
             </ul>
           </div>
         </div>
@@ -226,16 +245,90 @@
                 <a href="assets/img/portfolio/passgrades.png" data-gallery="portfolioGallery"
                   class="link-preview portfolio-lightbox" title="Preview"><i
                     class="fa-solid fa-plus portfolio-icon"></i></a>
-                <a href="http://passgrades.com/" target="_blank" class="link-details" title="More Details"><i
+                <a href="https://passgrades.com/" target="_blank" class="link-details" title="More Details"><i
                     class="fa-solid fa-link portfolio-icon"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="http://passgrades.com/" target="_blank">Passgrades</a></h4>
+                <h4><a href="https://passgrades.com/" target="_blank">Passgrades</a></h4>
                 <p>Website</p>
               </div>
             </div>
           </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/study-logo.png" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/study.png" data-gallery="portfolioGallery"
+                  class="link-preview portfolio-lightbox" title="Preview"><i
+                    class="fa-solid fa-plus portfolio-icon"></i></a>
+                <a href="https://studyingermany.com/" target="_blank" class="link-details" title="More Details"><i
+                    class="fa-solid fa-link portfolio-icon"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://mygermanstudy.com/" target="_blank">Study in Germany</a></h4>
+                <p>Website</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/olowngo.png" class="img-fluid" alt="">
+                <a href="assets/img/portfolio/olow.png" data-gallery="portfolioGallery"
+                  class="link-preview portfolio-lightbox" title="Preview"><i
+                    class="fa-solid fa-plus portfolio-icon"></i></a>
+                <a href="https://olowngo.com/" target="_blank" class="link-details" title="More Details"><i
+                    class="fa-solid fa-link portfolio-icon"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://olowngo.com/" target="_blank">OLOW</a></h4>
+                <p>Website</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-advert wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/gapnet-student.png" class="img-fluid" alt="">
+                <a href="https://www.youtube.com/watch?v=feH-bmOVWjA&t=17s" class="link-preview portfolio-lightbox"
+                  data-gallery="portfolioGallery" title="Preview"><i class="fa-solid fa-plus portfolio-icon"></i></a>
+                <a href="https://www.youtube.com/watch?v=feH-bmOVWjA&t=17s" class="link-details" title="More Details"><i
+                    class="fa-solid fa-link portfolio-icon"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://www.youtube.com/watch?v=feH-bmOVWjA&t=17s">Gapnet student portal</a></h4>
+                <p>Gapnet AI advert</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-advert wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/gapnet-agent.png" class="img-fluid" alt="">
+                <a href="https://www.youtube.com/watch?v=Sl3kslNLSGA&list=PLjm_kJiIrLtSmUBj1DCHo2Ww94h1L3uDw&index=2" class="link-preview portfolio-lightbox"
+                  data-gallery="portfolioGallery" title="Preview"><i class="fa-solid fa-plus portfolio-icon"></i></a>
+                <a href="https://www.youtube.com/watch?v=Sl3kslNLSGA&list=PLjm_kJiIrLtSmUBj1DCHo2Ww94h1L3uDw&index=2" class="link-details" title="More Details"><i
+                    class="fa-solid fa-link portfolio-icon"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://www.youtube.com/watch?v=Sl3kslNLSGA&list=PLjm_kJiIrLtSmUBj1DCHo2Ww94h1L3uDw&index=2">Gapnet agent portal</a></h4>
+                <p>Gapnet AI advert</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
@@ -285,6 +378,42 @@
               <div class="portfolio-info">
                 <h4><a href="#portfolio">NERDOX.AI</a></h4>
                 <p>App <span class="indevelopment"> <i class="fa-solid fa-screwdriver-wrench"></i> In development</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-advert wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/german-study.png" class="img-fluid" alt="">
+                <a href="https://www.youtube.com/watch?v=WmHlOQZdoUY&list=PLjm_kJiIrLtTdVFIkFZnHBZLayWRhXZOK" class="link-preview portfolio-lightbox"
+                  data-gallery="portfolioGallery" title="Preview"><i class="fa-solid fa-plus portfolio-icon"></i></a>
+                <a href="https://www.youtube.com/watch?v=WmHlOQZdoUY&list=PLjm_kJiIrLtTdVFIkFZnHBZLayWRhXZOK" class="link-details" title="More Details"><i
+                    class="fa-solid fa-link portfolio-icon"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://www.youtube.com/watch?v=WmHlOQZdoUY&list=PLjm_kJiIrLtTdVFIkFZnHBZLayWRhXZOK">My German Study</a></h4>
+                <p>My German study AI advert</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-advert wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="assets/img/portfolio/german-study-explanation.png" class="img-fluid" alt="">
+                <a href="https://www.youtube.com/watch?v=P01ANUvLnRs&list=PLjm_kJiIrLtTdVFIkFZnHBZLayWRhXZOK&index=2" class="link-preview portfolio-lightbox"
+                  data-gallery="portfolioGallery" title="Preview"><i class="fa-solid fa-plus portfolio-icon"></i></a>
+                <a href="https://www.youtube.com/watch?v=P01ANUvLnRs&list=PLjm_kJiIrLtTdVFIkFZnHBZLayWRhXZOK&index=2" class="link-details" title="More Details"><i
+                    class="fa-solid fa-link portfolio-icon"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://www.youtube.com/watch?v=P01ANUvLnRs&list=PLjm_kJiIrLtTdVFIkFZnHBZLayWRhXZOK&index=2">Study tuition free in germany</a></h4>
+                <p>My German study AI advert</span>
                 </p>
               </div>
             </div>
@@ -537,7 +666,7 @@
                 <textarea class="form-control" rows="3" name="Message" id="message"
                   placeholder="Enter a message"></textarea>
               </div>
-              <input type="hidden" name="_next" value="http://www.moreed.ng/thankyou.html">
+              <input type="hidden" name="_next" value="https://www.moreed.ng/thankyou.html">
               <input type="hidden" name="_captcha" value="false">
               <div class="d-grid"><button class="btn btn-primary submit-button" type="submit">Send us a message</button>
               </div>
@@ -565,12 +694,14 @@
   </footer>
   <!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center">🠅</a>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
