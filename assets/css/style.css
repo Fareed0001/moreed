@@ -252,7 +252,7 @@ h6 {
   transition: 0.5s;
 }
 
-.mobile-nav-toggle.bi-x {
+.mobile-nav-toggle.bx-x {
   color: #fff;
 }
 
@@ -858,7 +858,6 @@ section {
 }
 
 .testimonials .testimonial-item p {
-  text-align: justify;
   margin: 0 auto 15px auto;
 }
 
